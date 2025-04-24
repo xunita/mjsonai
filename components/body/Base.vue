@@ -19,7 +19,6 @@ const generateData = () => {
       if (response.isUserDataValid) {
         data.value = response.data;
       } else {
-        data.value = null;
         toast.clear();
         toast.add({
           title: "Uh oh! Something went wrong.",
