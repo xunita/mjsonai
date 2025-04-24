@@ -9,5 +9,6 @@
   "expand": "Développer",
   "generateB": "Générer des données",
   "generationResult": "Résultat de la génération",
-  "generating": "Génération en cours..."
+  "generating": "Génération en cours...",
+  "betterPasteSchema": "Vaut mieux coller votre schéma car l'éditeur est buggé, désolé"
 }

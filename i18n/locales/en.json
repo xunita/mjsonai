@@ -9,5 +9,6 @@
   "expand": "Expand",
   "generateB": "Generate data",
   "generationResult": "Generation result",
-  "generating": "Generating..."
+  "generating": "Generating...",
+  "betterPasteSchema": "Better paste your schema because the editor is buggy, sorry"
 }

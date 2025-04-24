@@ -51,7 +51,7 @@ const generateData = () => {
     <div class="code-snippet w-full flex flex-col gap-4">
       <div class="flex flex-col w-full">
         <span class="block text-center w-full font-semibold p-4">{{
-          $t("jsonSchema")
+          `${$t("jsonSchema")} (${$t("betterPasteSchema")})`
         }}</span>
         <BodyJsonEdit language="json" @update:code="handleCode" />
       </div>
