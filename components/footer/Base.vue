@@ -14,7 +14,7 @@
     <ULink
       target="_blank"
       class="text-xs"
-      to="https://github.com/xunita/jsonmockassistant"
+      to="https://github.com/xunita/mjsonai"
       as="button"
       >Github</ULink
     >
