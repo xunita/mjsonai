@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { getAssistantResponse } from "@/app/api/sender";
+const { t } = useI18n();
 const toast = useToast();
 const loading = ref(false);
 const code = ref("");
@@ -12,8 +13,11 @@ const handleCode = (c) => {
 const generateData = () => {
   loading.value = true;
   data.value = null;
+  const prompt = code.value.trim().length
+    ? code.value
+    : `// ${t("generateThis5x")} [{"name": "John Doe"}]`;
   // Simulate an API call
-  getAssistantResponse(code.value)
+  getAssistantResponse(prompt)
     .then((response) => {
       loading.value = false;
       if (response.isUserDataValid) {
