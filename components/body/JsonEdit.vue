@@ -80,7 +80,7 @@ onMounted(highlight);
       @click="focusCodeSnippet"
     >
       <span class="text-xs font-semibold line-clamp-1 pr-12">
-        {{ `// ${$t("generateThis5x")} [{"name": "John Doe"}]` }}
+        {{ `// ${$t("generateMore")} [{"name": "John Doe"}]` }}
       </span>
     </p>
   </div>

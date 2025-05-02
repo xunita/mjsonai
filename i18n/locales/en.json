@@ -4,7 +4,7 @@
   "jsonMockAssistantDescription": "Generate as much mocks data you need at once for JSON file or JSON string. You only need to provide the JSON schema, and the mock data will be generated automatically. You can also customize the mock data by providing your own values for specific fields.",
   "jsonSchema": "JSON Schema",
   "generate": "Generate the schema below",
-  "generateThis5x": "Generate more data with this schema",
+  "generateMore": "Generate 7 more data with this schema",
   "collapse": "Collapse",
   "expand": "Expand",
   "generateB": "Generate data",

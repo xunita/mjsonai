@@ -4,7 +4,7 @@
   "jsonMockAssistantDescription": "Générez autant de données fictives dont vous avez besoin pour un fichier JSON ou une chaîne JSON. Vous devez uniquement fournir le schéma JSON, et les données fictives seront générées automatiquement. Vous pouvez également personnaliser les données fictives en fournissant vos propres valeurs pour des champs spécifiques.",
   "jsonSchema": "Schéma JSON",
   "generate": "Générer le schéma ci-dessous",
-  "generateThis5x": "Générer plus de données avec ce schéma",
+  "generateMore": "Génère 7 autres données avec ce schéma",
   "collapse": "Réduire",
   "expand": "Développer",
   "generateB": "Générer des données",

@@ -15,7 +15,7 @@ const generateData = () => {
   data.value = null;
   const prompt = code.value.trim().length
     ? code.value.trim()
-    : `// ${t("generateThis5x")} [{"name": "John Doe"}]`;
+    : `// ${t("generateMore")} [{"name": "John Doe"}]`;
   // Simulate an API call
   getAssistantResponse(prompt)
     .then((response) => {
